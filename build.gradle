@@ -8,7 +8,7 @@ version '1.0-SNAPSHOT'
 jar {
     manifest {
         attributes(
-                'Main-Class': 'UnZipApp'
+                'Main-Class': 'ZipApp'
         )
     }
 }
