@@ -1,23 +1,26 @@
+//noinspection GroovyAssignabilityCheck
 plugins {
     id 'java'
 }
 
-group 'csaba79-coder'
+group 'org.example'
 version '1.0-SNAPSHOT'
 
 jar {
-    manifest {
+    manifest{
         attributes(
                 'Main-Class': 'ZipApp'
         )
     }
 }
 
+//noinspection GroovyAssignabilityCheck
 repositories {
     mavenCentral()
 }
 
 dependencies {
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
 
